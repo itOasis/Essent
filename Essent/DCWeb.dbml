@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="EssentIAM" Class="DCWebDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=212.123.31.100;Initial Catalog=EssentIAM;Persist Security Info=True;User ID=sa" SettingsObjectName="Essent.Properties.Settings" SettingsPropertyName="EssentIAMConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblCustomDataEntry" Member="tblCustomDataEntries">
+    <Type Name="tblCustomDataEntry">
+      <Column Name="DataEntryID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Barcode" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="Klantnr_hoofdzetel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Klantnummer" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Bestandsnaam" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Directory" Type="System.String" DbType="VarChar(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Dataveld1" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Dataveld2" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld3" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="Dataveld4" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld5" Type="System.String" DbType="VarChar(555)" CanBeNull="true" />
+      <Column Name="Dataveld6" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld7" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld8" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld9" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld10" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld11" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld12" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld13" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld14" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld15" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld16" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld17" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld18" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld19" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld20" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld21" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld22" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld23" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld24" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld25" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld26" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld27" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld28" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld29" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Dataveld30" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="To_Import" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Beveiligd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Creatiedatum" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
